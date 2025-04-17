@@ -7,7 +7,7 @@
   
   body {
     height: 100vh;
-    background: linear-gradient(to right, #e610fab0, #f11023); /* fundal colorat */
+    background: linear-gradient(to right,#000000d8, #3333354f); /* fundal colorat */
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;

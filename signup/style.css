@@ -7,7 +7,7 @@
 
 body {
   height: 100vh;
-  background: linear-gradient(to right, #e610fab0, #f11023); /* fundal colorat */
+  background: linear-gradient(to right, #000000d8, #3333354f); /* fundal colorat */
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -15,7 +15,7 @@ body {
 }
 
 .form-container {
-  background-color: rgba(255, 255, 255, 0.6); /* semitransparent */
+  background-color: rgba(255, 255, 255, 0.521); /* semitransparent */
   padding: 30px;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);

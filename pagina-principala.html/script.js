@@ -1,12 +1,11 @@
-const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
+    if (!loggedInUser) {
+      window.location.href = "signin/index.html"; // dacă nu e logat, merge la Sign In
+    } else {
+      document.getElementById("username").textContent = loggedInUser.name;
+    }
 
-if (!loggedInUser) {
-  window.location.href = 'signin/signin.html';
-} else {
-  document.getElementById('username').textContent = loggedInUser.name;
-}
-
-function logout() {
-  localStorage.removeItem('loggedInUser');
-  window.location.href = 'signin/signin.html';
-}
+    function logout() {
+      localStorage.removeItem("loggedInUser");
+      window.location.href = "signin/index.html";
+    }
