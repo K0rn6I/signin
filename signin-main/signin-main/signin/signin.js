@@ -18,7 +18,7 @@ document.getElementById('signin-form').addEventListener('submit', function(e) {
     localStorage.setItem('loggedInUser', JSON.stringify(foundUser));
     alert(`Bun venit, ${foundUser.name}!`);
     console.log('Redirecționare către pagina principală...'); // Depanare
-    window.location.href = '../pagina-principala/index.html'; // Redirecționează la pagina principală
+    window.location.href = '../pagina-principala.html/index.html'; // Redirecționează la pagina principală
   } else {
     alert('Email sau parolă greșită.');
     console.log('Autentificare eșuată'); // Depanare

@@ -37,5 +37,5 @@ document.getElementById("signup-form").addEventListener("submit", function (e) {
   localStorage.setItem("users", JSON.stringify(users));
 
   alert("Cont creat cu succes!");
-  window.location.href = "index.html"; // redirect către Sign In
+  window.location.href = "../signin/index.html"; // redirect către Sign In
 });
