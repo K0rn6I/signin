@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zodia ta, mașina ta</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Bine ai venit, <span id="username">Utilizator</span>!</h1>
+    <button onclick="logout()">Deconectare</button>
+  </header>
+
+  <main>
+    <h2>Zodia ta, mașina ta</h2>
+    <p>Alege-ți zodia și descoperă ce mașină ți se potrivește!</p>
+
+    <div class="selection-container">
+      <label for="zodiac-select">Alege zodia:</label>
+      <select id="zodiac-select">
+        <option value="" disabled selected>--- Selectează zodia ---</option>
+        <option value="Berbec">Berbec</option>
+        <option value="Taur">Taur</option>
+        <option value="Gemeni">Gemeni</option>
+        <option value="Rac">Rac</option>
+        <option value="Leu">Leu</option>
+        <option value="Fecioară">Fecioară</option>
+        <option value="Balanță">Balanță</option>
+        <option value="Scorpion">Scorpion</option>
+        <option value="Săgetător">Săgetător</option>
+        <option value="Capricorn">Capricorn</option>
+        <option value="Vărsător">Vărsător</option>
+        <option value="Pești">Pești</option>
+      </select>
+      <button onclick="showCar()">Arată mașina</button>
+    </div>
+
+    <div id="result" class="result-container"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
